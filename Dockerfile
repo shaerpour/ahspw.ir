@@ -2,7 +2,9 @@ FROM nginx:alpine
 
 WORKDIR /usr/share/nginx/html
 
-COPY . .
+COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
+
+COPY index.* shaerpour.txt .
 
 EXPOSE 80
 
