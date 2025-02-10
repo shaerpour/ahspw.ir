@@ -1,0 +1,29 @@
+baseURL = "https://web.ahspw.ir"
+languageCode = "en-us"
+theme = "poison"
+
+[params]
+    brand = "AHSP"
+    brand_image = "/images/ME.jpg"
+    description = "Amirhossein's Blog"
+    dark_mode = true
+    menu = [
+        {Name = "ABOUT", URL = "/about/", HasChildren = false},
+        {Name = "POSTS", URL = "/posts/", HasChildren = true, Pre = "Recent", Limit = 5}
+    ]
+    front_page_content = ["posts"]
+
+    # Social
+    email_url = "mailto://info@ahspw.ir"
+    github_url = "https://github.com/shaerpour"
+    gitlab_url = "https://gitlab.com/amirhosseinshaerpour1"
+    linkedin_url = "https://linkedin.com/in/shaerpour"
+    telegram_url = "https://t.me/ahpsw"
+
+    # RSS
+    rss_icon = true
+    rss_section = "posts"
+
+[taxonomies]
+    series = "series"
+    tags = "tags"
