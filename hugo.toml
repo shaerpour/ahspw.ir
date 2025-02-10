@@ -14,7 +14,7 @@ theme = "poison"
     front_page_content = ["posts"]
 
     # Social
-    email_url = "mailto://info@ahspw.ir"
+    email_url = "mailto:info@ahspw.ir"
     github_url = "https://github.com/shaerpour"
     gitlab_url = "https://gitlab.com/shaerpour"
     linkedin_url = "https://linkedin.com/in/shaerpour"
