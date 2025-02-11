@@ -18,7 +18,7 @@ theme = "poison"
     github_url = "https://github.com/shaerpour"
     gitlab_url = "https://gitlab.com/shaerpour"
     linkedin_url = "https://linkedin.com/in/shaerpour"
-    telegram_url = "https://t.me/ahpsw"
+    telegram_url = "https://t.me/ahspw"
 
     # RSS
     rss_icon = true
