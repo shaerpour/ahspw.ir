@@ -1,13 +1,12 @@
 ---
-title: "Introduction"
-date: 2025-02-10
+title: "00-Introduction"
+date: "2025-02-10"
 draft: false
-series: "Kubernetes hpa for Rabbitmq queue length"
+series: "K8S HPA RABBITMQ QUEUE LENGTH"
 hideToc: true
 tags: ["Kubernetes", "RabbitMQ", "Prometheus", "HPA"]
 ---
 
-### Introduction
 In this series, we are going to:
 - Setup a [Kubernetes](https://kubernetes.io) cluster
 - Deploy [Rabbitmq](https://www.rabbitmq.com) cluster
